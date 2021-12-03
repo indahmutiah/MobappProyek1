@@ -16,7 +16,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class mainmenu extends AppCompatActivity {
 
-    private Button logout, info;
+    private Button logout, info, stock;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +31,10 @@ public class mainmenu extends AppCompatActivity {
         info = findViewById(R.id.btn_info);
         info.setOnClickListener(v -> {
             startActivity(new Intent(mainmenu.this,InfoActivity.class));
+        });
+        stock = findViewById(R.id.btn_stock);
+        stock.setOnClickListener(v -> {
+            startActivity(new Intent(mainmenu.this,StockActivity.class));
         });
     }
 }
