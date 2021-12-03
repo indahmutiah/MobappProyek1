@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22690427979",
+    "project_id": "bejostorelogin",
+    "storage_bucket": "bejostorelogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22690427979:android:3888c93409c12df6bc89ce",
+        "android_client_info": {
+          "package_name": "com.example.bejostorelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22690427979-bmi2lil9tvmhlo10n8q84tu6plb72uic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuCRfgjZzpPbxbSjzuRxG7zr1A99sdn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22690427979-bmi2lil9tvmhlo10n8q84tu6plb72uic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
