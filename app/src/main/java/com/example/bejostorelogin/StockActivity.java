@@ -21,7 +21,7 @@ public class StockActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stock);
-        recyclerView=findViewById(R.id.recylceView);
+        recyclerView=findViewById(R.id.recycleView);
 
         titles = new ArrayList<>();
         images = new ArrayList<>();

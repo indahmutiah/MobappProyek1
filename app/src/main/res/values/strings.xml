@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">bejostorelogin</string>
-    <string name="mengecek_st">1. Mengecek stock opname barang.
-        \n\n
-        2. Berbelanja dan melakukan pembayaran online.
-        \n\n
-        3. Cek hasil pendapatan setiap hari dan prediksi pendapatan besok.</string>
+    <string name="app_name1">BejoStore</string>
 </resources>

@@ -1,22 +1,16 @@
 package com.example.bejostorelogin;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class mainmenu extends AppCompatActivity {
 
-    private Button logout, info, stock;
+    private Button logout, info, stock,rekap, pembayaran;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +29,14 @@ public class mainmenu extends AppCompatActivity {
         stock = findViewById(R.id.btn_stock);
         stock.setOnClickListener(v -> {
             startActivity(new Intent(mainmenu.this,StockActivity.class));
+        });
+        rekap=findViewById(R.id.btn_rekap);
+        rekap.setOnClickListener(v -> {
+            startActivity(new Intent(mainmenu.this, PrediksiMain.class));
+        });
+        pembayaran=findViewById(R.id.btn_byr);
+        pembayaran.setOnClickListener(v -> {
+            startActivity(new Intent(mainmenu.this,ProdukListActivity.class));
         });
     }
 }
